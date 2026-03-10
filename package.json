@@ -1,0 +1,29 @@
+{
+  "name": "speedtestapi",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --inspect index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@graphql-yoga/plugin-disable-introspection": "2.14.5",
+    "bcryptjs": "3.0.2",
+    "dotenv": "16.5.0",
+    "graphql": "16.11.0",
+    "graphql-yoga": "5.13.5",
+    "log4js": "6.9.1",
+    "mongodb": "6.16.0",
+    "mongoose": "^8.18.0",
+    "request-ip": "^3.3.0",
+    "ws": "^8.18.3"
+  },
+  "type": "module",
+  "optionalDependencies": {
+    "bufferutil": "^4.0.9"
+  }
+}
